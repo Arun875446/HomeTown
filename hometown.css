@@ -1,0 +1,151 @@
+body{
+
+    margin: 0px;
+    background: linear-gradient(lightblue, pink);
+}
+
+.main-img {
+
+    background-image: url(chennai.jpg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 1000px;
+  
+}
+  
+
+.visit {
+
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 850px;
+    font-size: 20px;
+    border: 1px solid #5D6D7E ;
+    border-radius: 20px;
+    width: 250px;
+    background-color: #5D6D7E ;
+    color: whitesmoke ;
+    margin-bottom: 40px;
+    
+
+}
+
+.enjoy {
+
+    text-align: center;
+    margin-left: 800px;
+    font-size: 20px;
+    border: 1px solid #5D6D7E ;
+    border-radius: 20px;
+    width: 350px;
+    background-color: #5D6D7E ;
+    color: whitesmoke ;
+
+
+}
+
+.middle{
+
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img1 {
+    
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  
+     
+}
+
+.img2 {
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    
+}
+
+.img3 {
+   
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    
+}
+    
+
+.activ{
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+ 
+}
+
+
+.words{
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    margin-right: 70px;
+    width: auto;
+}
+
+
+.guide {
+
+    background-color: #E7FFC3;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto 70px;
+    border-bottom: 5px solid black;
+    padding: 20px;
+}
+
+.final {
+
+    margin-left: 30px;
+    text-align: center;
+}
+
+.ultimo{
+
+    background-color: beige;
+}
+
+.arunimg:hover {
+
+    content: url(badass.gif);
+
+}
+
+.img1:hover {
+
+    content: url(movee.gif);
+}
+
+.img2:hover {
+
+    content: url(simps.gif);
+
+}
+
+.img3:hover {
+
+    content: url(beach.gif);
+
+}
